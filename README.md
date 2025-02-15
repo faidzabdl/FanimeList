@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FanimeList (FAL) 🍥
 
-## Getting Started
+[![GitHub last commit](https://img.shields.io/github/last-commit/faidzabdl/FanimeList?style=flat-square)](https://github.com/faidzabdl/FanimeList/commits/main)
 
-First, run the development server:
+FanimeList (FAL) adalah sebuah web sederhana untuk tracking anime, terinspirasi dari MyAnimeList. Dibangun dengan Next.js dan menggunakan API Jikan untuk mendapatkan data anime.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Fitur
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Anime Populer** - Lihat daftar anime trending mingguan.
+- **Detail Anime** - Informasi lengkap tentang anime (judul, sinopsis, rating, genre, dll).
+- **Pencarian Anime** - Cari anime berdasarkan judul.
+- **Responsive Design** - Tampilan yang ramah di semua perangkat.
+- **Integrasi API** - Menggunakan Jikan API (Unofficial MyAnimeList API).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠 Teknologi
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org/) - React Framework.
+- [React](https://react.dev/) - Library JavaScript.
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework.
+- [Jikan API](https://jikan.moe/) - Unofficial MyAnimeList API.
 
-## Learn More
+## 🚀 Instalasi
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone repositori**
+   ```bash
+   git clone https://github.com/faidzabdl/FanimeList.git
+   cd FanimeList
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies
+    ```bash
+     npm install
+      atau
+     yarn install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Setup environment variables (buat file .env.local)
+    ```bash
+    NEXT_PUBLIC_JIKAN_API=https://api.jikan.moe/v4/
 
-## Deploy on Vercel
+  4. **Jalankan development server
+      ```bash
+      npm run dev
+       atau
+      yarn dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ## 📂 Struktur Projek
+      
+      ├── public/          # Assets static
+      ├── app/             # Halaman utama
+      │   ├── page.js      # Halaman beranda
+      │   └── anime/       # Halaman detail anime
+      ├── components/      # Komponen React
+      ├── lib/             # Utility functions
+      └── styles/          # Global CSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ ## 🤝 Kontribusi
+    Pull request dipersilakan! Untuk perubahan besar, buka issue terlebih dahulu.
+
+ **Disclaimer**: Proyek ini dibuat untuk tujuan edukasi dan tidak berafiliasi dengan MyAnimeList. Data anime menggunakan API dari Jikan.moe   
+
+    
+   
